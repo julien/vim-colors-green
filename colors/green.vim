@@ -33,4 +33,4 @@ hi StatusLineTermNC ctermbg=15 guibg=White
 hi String ctermfg=120 guifg=#87ff87
 hi Todo cterm=NONE ctermfg=120 gui=NONE guifg=White guibg=#87ff87
 hi Type ctermfg=120 guifg=#87ff87
-hi Visual term=reverse ctermbg=10 ctermfg=0 guibg=#87ff87 guifg=Black
+hi Visual term=reverse ctermbg=120 ctermfg=0 guibg=#87ff87 guifg=Black
