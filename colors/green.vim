@@ -12,25 +12,25 @@ endif
 set t_Co=256
 let g:colors_name = "green"
 
-hi ColorColumn ctermbg=10 guibg=Green
-hi Comment ctermfg=10 guifg=Green
-hi Comment ctermfg=10 guifg=Green
-hi Constant ctermfg=10 guifg=Green
+hi ColorColumn ctermbg=10 guibg=#87ff87
+hi Comment ctermfg=120 guifg=#87ff87
+hi Comment ctermfg=120 guifg=#87ff87
+hi Constant ctermfg=120 guifg=#87ff87
 hi CursorLine term=none cterm=none
-hi Directory ctermfg=10 guifg=Green
-hi Identifier ctermfg=10 guifg=Green
-hi LineNr ctermfg=10 guifg=Green
-hi MoreMsg ctermfg=10 guifg=Green
-hi NonText ctermfg=10 guifg=Green
-hi Normal ctermbg=0 ctermfg=10 guibg=Black guifg=Green
-hi Operator ctermfg=10 guifg=Green
-hi PreProc ctermfg=10 guifg=Green
-hi Search ctermbg=10 guifg=Green
-hi Special ctermfg=10 guifg=Green
-hi Statement cterm=NONE ctermfg=10 guifg=Green
+hi Directory ctermfg=120 guifg=#87ff87
+hi Identifier ctermfg=120 guifg=#87ff87
+hi LineNr ctermfg=120 guifg=#87ff87
+hi MoreMsg ctermfg=120 guifg=#87ff87
+hi NonText ctermfg=120 guifg=#87ff87
+hi Normal ctermbg=0 ctermfg=120 guibg=Black guifg=#87ff87
+hi Operator ctermfg=120 guifg=#87ff87
+hi PreProc ctermfg=120 guifg=#87ff87
+hi Search ctermbg=120 guifg=#87ff87
+hi Special ctermfg=120 guifg=#87ff87
+hi Statement cterm=NONE ctermfg=120 guifg=#87ff87
 hi StatusLineTerm ctermbg=15 guibg=White
 hi StatusLineTermNC ctermbg=15 guibg=White
-hi String ctermfg=10 guifg=Green
-hi Todo cterm=NONE ctermfg=green gui=NONE guifg=White guibg=Green
-hi Type ctermfg=10 guifg=Green
-hi Visual term=reverse ctermbg=10 ctermfg=0 guibg=Green guifg=Black
+hi String ctermfg=120 guifg=#87ff87
+hi Todo cterm=NONE ctermfg=120 gui=NONE guifg=White guibg=#87ff87
+hi Type ctermfg=120 guifg=#87ff87
+hi Visual term=reverse ctermbg=10 ctermfg=0 guibg=#87ff87 guifg=Black
