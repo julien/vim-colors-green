@@ -30,7 +30,9 @@ hi Search ctermbg=120 guifg=DarkGreen
 hi Special ctermfg=22 guifg=DarkGreen
 hi Statement cterm=bold ctermfg=22 gui=bold guifg=DarkGreen
 hi StatusLineTerm ctermbg=15 guibg=White
+hi StatusLineTerm term=none ctermbg=22 ctermfg=0 gui=none guibg=DarkGreen guifg=Black
 hi StatusLineTermNC ctermbg=15 guibg=White
+hi StatusLineTermNC term=none ctermbg=22 ctermfg=0 gui=none guibg=DarkGreen guifg=Black
 hi String ctermfg=22 guifg=DarkGreen
 hi Todo cterm=NONE ctermfg=22 gui=NONE guifg=White guibg=DarkGreen
 hi Type ctermfg=22 guifg=DarkGreen
