@@ -2,4 +2,4 @@
 
 Everything is green
 
-![](https://user-images.githubusercontent.com/5572/150612768-c23b1bd4-9d2d-45ab-8a4c-2bb781e3ef47.png)
+![](https://user-images.githubusercontent.com/5572/150612903-a8acb02b-0cb2-46d9-88bf-0aad06aa2ea8.png)
