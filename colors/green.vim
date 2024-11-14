@@ -1,45 +1,65 @@
 " A green colorscheme
 
 " Maintainer:  https://github.com/julien
-" Last Change: 2022/09/21
+" Last Change: 2024/11/14
 
 highlight clear
 
 if exists("syntax_on")
   syntax reset
 endif
-
+  
 let g:colors_name = "green"
 
-hi ColorColumn ctermbg=40
-hi Comment ctermfg=2
-hi Constant ctermfg=40
-hi CursorLine term=none cterm=none
-hi Directory ctermfg=40
-hi Folded ctermbg=40 ctermfg=0
-hi Identifier ctermfg=40
-hi LineNr ctermfg=2
-hi MoreMsg ctermfg=40
-hi NonText ctermfg=40
-hi Normal ctermbg=0 ctermfg=40
-hi Operator ctermfg=40
-hi PreProc ctermfg=40
-hi Search ctermbg=120
-hi Special ctermfg=40
-hi Statement cterm=bold ctermfg=40
-hi StatusLineTerm ctermbg=15
-hi StatusLineTerm term=none ctermbg=40 ctermfg=0
-hi StatusLineTermNC ctermbg=15
-hi StatusLineTermNC term=none ctermbg=40 ctermfg=0
-hi String ctermfg=40
-hi Todo cterm=none ctermfg=40 gui=none
-hi Type ctermfg=40
-hi Visual term=reverse ctermbg=120 ctermfg=0
-hi VertSplit ctermfg=232 cterm=none
-hi Question ctermfg=40
-hi StatusLine cterm=none ctermfg=2 ctermbg=232
-hi StatusLineNC cterm=none ctermfg=40 ctermbg=234
-hi Pmenu ctermbg=232 ctermfg=40
-hi MatchParen ctermbg=232 ctermfg=2
-hi diffAdded ctermfg=2 cterm=none
-hi diffRemoved ctermfg=1
+" UI elements
+hi ColorColumn ctermbg=40 guibg=#448c27
+hi CursorLine term=none cterm=none guibg=#448c27 guifg=#000000
+hi CursorColumn ctermbg=2 guibg=#448c27
+hi CurSearch ctermfg=120 gui=none guibg=#000000 guifg=#5ec435
+hi Directory ctermfg=0 ctermfg=40 guifg=#72f13e
+hi Error ctermfg=1 guibg=#000000 guifg=#aa3731
+hi! link vimError Error
+hi ErrorMsg ctermbg=0 ctermfg=1 guibg=#000000 guifg=#aa3731
+hi FoldColumn ctermfg=2 guifg=#448c27
+hi Folded ctermbg=40 ctermfg=0 guibg=#448c27 guifg=#000000
+hi LineNr ctermfg=2 guifg=#448c27
+hi MatchParen ctermfg=2 gui=none guifg=#448c27
+hi ModeMsg ctermfg=40 guifg=#5ec435
+hi MoreMsg ctermfg=40 guifg=#448c27
+hi NonText ctermfg=2 guifg=#5ec435
+hi Pmenu cterm=none ctermbg=232 ctermfg=40 gui=none guibg=#000000 guifg=#72f13e
+hi PmenuThumb ctermbg=none guibg=#000000
+hi PmenuSel cterm=reverse ctermbg=120 gui=reverse guibg=#000000 guifg=#72f13e
+hi Question ctermfg=40 guifg=#72f13e
+hi QuickFixLine ctermbg=0 ctermfg=40 guibg=#000000 guifg=#448c27
+hi Search term=none ctermfg=0 ctermbg=40 guibg=#448c27 guifg=#000000
+hi SignColumn ctermfg=2 guifg=#448c27
+hi StatusLine cterm=none ctermfg=2 ctermbg=232 guibg=#72f13e guifg=#000000
+hi StatusLineNC cterm=none ctermfg=40 ctermbg=234 guibg=#448c27 guifg=#000000
+hi VertSplit cterm=none ctermfg=232 gui=none guifg=#448c27
+hi Visual term=reverse ctermbg=120 ctermfg=0 guibg=#72f13e guifg=#000000
+
+" Syntax
+hi Normal ctermbg=0 ctermfg=40 guibg=#000000 guifg=#448c27
+hi! link Title Normal
+hi Comment ctermfg=2 guifg=#448c27
+hi! link Todo Comment
+hi Statement ctermfg=40 guifg=#5ec435
+hi! link Constant Statement
+hi! link Delimiter Statement
+hi! link Function Statement
+hi! link Keyword Statement
+hi! link Identifier Statement
+hi! link Operator Statement
+hi! link PreProc Statement
+hi! link Special Statement
+hi! link SpecialKey Statement
+hi! link String Statement
+hi! link Type Statement
+
+hi diffAdded ctermfg=2 cterm=none gui=none guifg=#5ec435
+hi! link DiffAdd diffAdded
+hi! link DiffChange diffAdded
+hi! link DiffText diffAdded
+hi diffRemoved ctermfg=1 guifg=#aa3731
+hi! link DiffDelete diffRemoved
