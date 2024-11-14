@@ -11,7 +11,6 @@ endif
   
 let g:colors_name = "green"
 
-" UI elements
 hi ColorColumn ctermbg=40 guibg=#448c27
 hi CursorLine term=none cterm=none guibg=#448c27 guifg=#000000
 hi CursorColumn ctermbg=2 guibg=#448c27
@@ -39,7 +38,6 @@ hi StatusLineNC cterm=none ctermfg=40 ctermbg=234 guibg=#448c27 guifg=#000000
 hi VertSplit cterm=none ctermfg=232 gui=none guifg=#448c27
 hi Visual term=reverse ctermbg=120 ctermfg=0 guibg=#72f13e guifg=#000000
 
-" Syntax
 hi Normal ctermbg=0 ctermfg=40 guibg=#000000 guifg=#448c27
 hi! link Title Normal
 hi Comment ctermfg=2 guifg=#448c27
@@ -56,7 +54,6 @@ hi! link Special Statement
 hi! link SpecialKey Statement
 hi! link String Statement
 hi! link Type Statement
-
 hi diffAdded ctermfg=2 cterm=none gui=none guifg=#5ec435
 hi! link DiffAdd diffAdded
 hi! link DiffChange diffAdded
