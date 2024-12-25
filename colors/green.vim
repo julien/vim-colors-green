@@ -11,8 +11,7 @@ endif
   
 let g:colors_name = "green"
 
-hi ColorColumn ctermbg=40 guibg=#448c27
-hi CursorLine term=none cterm=none guibg=#448c27 guifg=#000000
+hi ColorColumn ctermbg=2  guibg=#448c27
 hi CursorColumn ctermbg=2 guibg=#448c27
 hi CurSearch ctermfg=120 gui=none guibg=#000000 guifg=#5ec435
 hi Directory ctermfg=0 ctermfg=40 guifg=#72f13e
@@ -33,10 +32,12 @@ hi Question ctermfg=40 guifg=#72f13e
 hi QuickFixLine ctermbg=0 ctermfg=40 guibg=#000000 guifg=#448c27
 hi Search term=none ctermfg=0 ctermbg=40 guibg=#448c27 guifg=#000000
 hi SignColumn ctermfg=2 guifg=#448c27
-hi StatusLine cterm=none ctermfg=2 ctermbg=232 guibg=#72f13e guifg=#000000
+hi StatusLine cterm=none ctermfg=232 ctermbg=120 guibg=#72f13e guifg=#000000
 hi StatusLineNC cterm=none ctermfg=40 ctermbg=234 guibg=#448c27 guifg=#000000
 hi VertSplit cterm=none ctermfg=232 gui=none guifg=#448c27
 hi Visual term=reverse ctermbg=120 ctermfg=0 guibg=#72f13e guifg=#000000
+hi! link CursorLine Visual
+hi! link CursorLineNr Visual
 
 hi Normal ctermbg=0 ctermfg=40 guibg=#000000 guifg=#448c27
 hi! link Title Normal
